@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUBRIDGE - Your Path to Success</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">EDUBRIDGE</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#teachers">Teachers</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Get 1-1 Online LIVE Learning Session</h1>
+            <p class="hero-subtitle">Personalized learning experience from Class 1 to Class 12 with expert teachers</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button primary">Start Free Trial</a>
+                <a href="#courses" class="cta-button secondary">View Courses</a>
+            </div>
+        </div>
+        <div class="floating-cards">
+            <div class="floating-card" data-aos="fade-up">
+                <i class="fas fa-video"></i>
+                <h3>Live Classes</h3>
+                <p>Interactive 1-1 online sessions</p>
+            </div>
+            <div class="floating-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Expert Teachers</h3>
+                <p>Learn from experienced educators</p>
+            </div>
+            <div class="floating-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-clock"></i>
+                <h3>Flexible Timing</h3>
+                <p>Schedule classes at your convenience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">Why Choose Us?</h2>
+            <div class="about-content">
+                <p data-aos="fade-up">We provide comprehensive education solutions for students from Class 1 to Class 12, covering all subjects with a focus on building strong foundations and achieving academic excellence.</p>
+                <div class="stats">
+                    <div class="stat-item" data-aos="fade-up">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Class Levels</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Expert Teachers</span>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card" data-aos="fade-up">
+                    <div class="course-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>Comprehensive math courses from basic arithmetic to advanced calculus</p>
+                </div>
+                <div class="course-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="course-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry, and Biology for all grade levels</p>
+                </div>
+                <div class="course-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="course-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <p>English, Hindi, and other language courses</p>
+                </div>
+                <div class="course-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="course-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Social Studies</h3>
+                    <p>History, Geography, and Civics for all classes</p>
+                </div>
+                <div class="course-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="course-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Computer Science</h3>
+                    <p>Basic to advanced computer education</p>
+                </div>
+                <div class="course-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="course-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Arts & Crafts</h3>
+                    <p>Creative learning and skill development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="teachers">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Expert Teachers</h2>
+            <div class="scroll-buttons">
+                <button class="scroll-button scroll-left" onclick="scrollTeachers('left')">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="scroll-button scroll-right" onclick="scrollTeachers('right')">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="teachers-grid">
+                <div class="teacher-card" data-aos="fade-up">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/0.jpeg" alt="Manoj Mishra">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Manoj Mishra (Director)</h3>
+                        <p>M.Sc Life Science, PhD, 10+ Years Experience</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card" data-aos="fade-up">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/5.jpeg" alt="Neha Rai">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Neha Rai</h3>
+                        <p>M.Sc Life Science, PhD, 7 Years Experience</p>
+                    </div>
+                </div>
+
+                <div class="teacher-card" data-aos="fade-up">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/1.jpeg" alt="Nikhil Yadav">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Nikhil Yadav</h3>
+                        <p>M.Sc Chemistry, PhD</p>
+                    </div>
+                </div>
+                <div class="teacher-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/2.jpeg" alt="Pragya Pathak">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Pragya Pathak</h3>
+                        <p>M.Sc Physics, Gold Medalist</p>
+                    </div>
+                </div>
+                <div class="teacher-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/3.jpeg" alt="Animesh Singh">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Animesh Singh</h3>
+                        <p>M.Sc Chemistry, JEE & NEET Expert</p>
+                    </div>
+                </div>
+                <div class="teacher-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="teacher-image">
+                        <div class="teacher-image-container">
+                            <img src="image/4.jpeg" alt="Life Science Expert">
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Life Science Expert</h3>
+                        <p>M.Sc Life Science, 10 Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">What Our Students Say</h2>
+            <p class="section-subtitle" data-aos="fade-up">Real reviews from our students on Google</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-image">
+                        <img src="review/1.jpg" alt="Student Review 1">
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-image">
+                        <img src="review/2.jpg" alt="Student Review 2">
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-image">
+                        <img src="review/3.jpg" alt="Student Review 3">
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-image">
+                        <img src="review/4.jpg" alt="Student Review 4">
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-image">
+                        <img src="review/5.jpg" alt="Student Review 5">
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-image">
+                        <img src="review/6.jpg" alt="Student Review 6">
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-controls">
+                <button class="testimonial-button prev" onclick="scrollTestimonials('left')">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-button next" onclick="scrollTestimonials('right')">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Prayagraj, Uttar Pradesh (India)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9109447256</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>mishra8542@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/movebavr" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Providing quality education from Class 1 to Class 12 with expert faculty and proven results.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#teachers">Teachers</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/educational-bridge"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/educational-bridge"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/educational-bridge"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/educational-bridge"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EDUBRIDGE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        function scrollTeachers(direction) {
+            const container = document.querySelector('.teachers-grid');
+            const scrollAmount = 320; // Width of card + gap
+            if (direction === 'left') {
+                container.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            } else {
+                container.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        function scrollTestimonials(direction) {
+            const container = document.querySelector('.testimonials-grid');
+            const scrollAmount = 400; // Width of card + gap
+            if (direction === 'left') {
+                container.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            } else {
+                container.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
+</html> 
